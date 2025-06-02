@@ -1,4 +1,4 @@
-# MCP Server Basic Example
+# MCP Server
 
 This is a basic example of a Model Context Protocol (MCP) server implementation that demonstrates core functionality including tools and resources.
 
@@ -66,3 +66,11 @@ uv run main.py
 ## Project Structure
 - `main.py`: Main server implementation with tools and resources
 - `pyproject.toml`: Project configuration and dependencies
+
+## push into docker desktop
+- make sure your docker desktop is already installed in your system
+- run this command in your terminal "docker build -t mcp-server ." to push the mcp server in docker desktop
+- "docker run -p [your running port no]:[your running port no] mcp-server"to run the server in docker desktop
+
+
+###Try
