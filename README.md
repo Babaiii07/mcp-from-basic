@@ -73,4 +73,4 @@ uv run main.py
 - "docker run -p [your running port no]:[your running port no] mcp-server"to run the server in docker desktop
 
 
-###Try
+### Try this out in your desktop and also configure it in your claude,vs code, and cursor
